@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { PapuresComponent } from './papures/papures.component';
+import { UserItemComponent } from './user-item/user-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PapuresComponent
+    PapuresComponent,
+    UserItemComponent
   ],
   imports: [
     BrowserModule
