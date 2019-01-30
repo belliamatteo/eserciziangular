@@ -9,7 +9,7 @@ export class UserItemComponent implements OnInit {
 name:string;
   constructor() {
     
-    this.name = 'jelle';
+    this.name = 'pollo';
   }
 
   ngOnInit() {
